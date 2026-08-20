@@ -1,0 +1,16 @@
+tenant_id,shop_id,listing_id,title,listed_price,listed_category,sku,image_text
+tenant_a,shop_a1,L1,【索尼】降噪耳机 黑色 500g,199.0,数码,SKU-E1,黑色头戴式耳机产品图
+tenant_a,shop_a1,L2,【华为】无线充电器 白色,89.0,数码,SKU-E2,白色充电底座
+tenant_a,shop_a1,L3,蓝牙键盘办公套装 L码,129.0,数码,SKU-E3,键盘鼠标套装
+tenant_a,shop_a1,L4,【苹果】手机 价格99999,99999.0,数码,SKU-E4,手机正面图
+tenant_a,shop_a1,L5,【平价】耳机 ￥9.9 红色,9.9,数码,SKU-E5,红色入耳式耳机
+tenant_a,shop_a1,L6,补水保湿面膜 25ml,39.9,美妆,SKU-M1,面膜袋装
+tenant_a,shop_a1,L7,口红唇釉套装 豆沙色,79.0,美妆,SKU-M2,口红静物图
+tenant_a,shop_a1,L8,防晒喷雾 SPF50,59.0,美妆,SKU-M3,防晒喷雾瓶
+tenant_a,shop_a1,L9,连衣裙夏季新款 M码 棉,128.0,女装,SKU-C1,女装连衣裙上身图
+tenant_a,shop_a1,L10,【错挂】面膜精华液,49.0,数码,SKU-BADCAT,面膜精华
+tenant_a,shop_a1,L11,,,美妆,SKU-EMPTY,
+tenant_a,shop_a1,L12,神秘商品XYZ,,,SKU-AMBIG,未分类商品
+tenant_a,shop_a1,L13,高仿苹果手机 全新,899.0,数码,SKU-FAKE,手机外观
+tenant_a,shop_a1,L14,【索尼】降噪耳机,199.0,数码,SKU-MISMATCH,儿童益智积木玩具实拍
+tenant_a,shop_a2,L20,【索尼】耳机,188.0,数码,SKU-X1,耳机

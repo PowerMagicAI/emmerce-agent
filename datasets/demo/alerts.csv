@@ -1,0 +1,4 @@
+alert_id,tenant_id,shop_id,severity,rule,message,metric_code,value,status,created_at
+AL-DEMO-1,tenant_a,shop_a1,high,ad_roi_low,投放计划 AD2 品牌曝光 ROI=0.2，低于 1.0,ad_roi,0.2,open,2026-08-04T08:00:00+08:00
+AL-DEMO-2,tenant_a,shop_a1,medium,refund_rate_high,退款率 0.25，超过阈值 0.2,refund_rate,0.25,open,2026-08-04T08:00:00+08:00
+AL-DEMO-3,tenant_a,shop_a1,medium,image_text_mismatch,L14 主图 OCR 与标题几乎无重叠（假 OCR 流程）,pipeline_failed,1,open,2026-08-04T08:00:00+08:00

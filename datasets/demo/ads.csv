@@ -1,0 +1,8 @@
+tenant_id,shop_id,campaign_id,name,channel,day,spend,clicks,orders,gmv
+tenant_a,shop_a1,AD1,耳机搜索,taobao,2026-08-03,400,90,3,900
+tenant_a,shop_a1,AD2,品牌曝光,taobao,2026-08-03,1000,40,1,200
+tenant_a,shop_a1,AD1,耳机搜索,taobao,2026-08-04,800,120,4,1600
+tenant_a,shop_a1,AD2,品牌曝光,taobao,2026-08-04,2000,80,1,400
+tenant_a,shop_a1,AD3,新品点击,taobao,2026-08-04,200,50,2,500
+tenant_a,shop_a2,AD9,店铺引流,taobao,2026-08-04,100,10,0,0
+tenant_b,shop_b1,AD-X,他店投放,taobao,2026-08-04,9999,1,1,1

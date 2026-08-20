@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emmerce-agent"
+version = "0.2.0"
+description = "电商 SaaS 数据分析 Agent — 生产分层架构（LLM tool-calling + Schema + 校验）"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.7.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23", "httpx>=0.27.0"]
+schema = ["jsonschema>=4.20.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = [
+    "uat: acceptance cases",
+    "p0: P0 gate",
+    "p1: P1",
+    "perf: performance",
+    "contract: protocol contracts",
+    "unit: unit tests",
+]
+filterwarnings = ["ignore::DeprecationWarning"]

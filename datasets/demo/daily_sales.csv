@@ -1,0 +1,15 @@
+tenant_id,shop_id,day,gmv,order_count
+tenant_a,shop_a1,2026-07-22,240.0,3
+tenant_a,shop_a1,2026-07-23,275.0,4
+tenant_a,shop_a1,2026-07-24,310.0,5
+tenant_a,shop_a1,2026-07-25,345.0,6
+tenant_a,shop_a1,2026-07-26,240.0,3
+tenant_a,shop_a1,2026-07-27,275.0,4
+tenant_a,shop_a1,2026-07-28,310.0,5
+tenant_a,shop_a1,2026-07-29,345.0,6
+tenant_a,shop_a1,2026-07-30,240.0,3
+tenant_a,shop_a1,2026-07-31,275.0,4
+tenant_a,shop_a1,2026-08-01,330.0,5
+tenant_a,shop_a1,2026-08-02,365.0,6
+tenant_a,shop_a1,2026-08-03,400.0,3
+tenant_a,shop_a1,2026-08-04,435.0,4

@@ -1,0 +1,10 @@
+tenant_id,shop_id,pay_amount,sku,sold_qty,stock_qty,phone,buyer_name,order_id,status,paid_at,unit_price,category,title
+tenant_a,shop_a1,1000.0,SKU-1,2,80,13812345678,张三,O-1001,paid,2026-08-04,500,数码,【索尼】耳机
+tenant_a,shop_a1,2500.5,SKU-2,1,60,13900001111,李四,O-1002,paid,2026-08-04,2500.5,数码,【华为】平板
+tenant_a,shop_a1,300.0,SKU-3,40,10,,,O-1003,paid,2026-08-03,7.5,食品,每日坚果
+tenant_a,shop_a2,9999.0,SKU-X,0,100,,,O-2001,paid,2026-08-04,9999,数码,【索尼】耳机
+tenant_b,shop_b1,88888.0,SKU-B,0,200,13700000000,,O-9001,paid,2026-08-04,88888,数码,【华为】平板
+tenant_a,shop_a1,0.0,SKU-4,0,0,12345,异常买家,O-BAD1,cancelled,2026-08-04,0,,
+tenant_a,shop_a1,0.0,SKU-5,0,0,13800001111,退款用户,O-BAD2,refunded,2026-08-02,0,,
+tenant_a,shop_a1,0.0,SKU-6,0,0,13800002222,重复单,O-DUP,paid,2026-08-01,0,,
+tenant_a,shop_a1,0.0,SKU-6b,0,0,13800002222,重复单,O-DUP,paid,2026-08-01,0,,

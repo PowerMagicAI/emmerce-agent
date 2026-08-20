@@ -1,0 +1,20 @@
+{
+  "description": "Golden tool routing + numeric grounding. CI uses stub; `python -m emmerce_agent.cli eval --live` uses .env model.",
+  "cases": [
+    {"id": "gmv", "query": "今日支付GMV是多少", "expect_tools": ["query_metric"], "expect_metric": "gmv_pay", "expect_value": 3800.5},
+    {"id": "orders", "query": "有效订单量是多少", "expect_tools": ["query_metric"], "expect_metric": "order_count", "expect_value": 3},
+    {"id": "refund", "query": "退款率多少", "expect_tools": ["query_metric"], "expect_metric": "refund_rate", "expect_value": 0.25},
+    {"id": "compare", "query": "对比8月3日和8月4日支付GMV", "expect_tools": ["compare_metric"], "expect_metric": "gmv_pay", "expect_value": 3500.5},
+    {"id": "slow_clarify", "query": "帮我分析7月滞销商品", "expect_tools": ["ask_clarification"]},
+    {"id": "price", "query": "帮我看一下价格异常", "expect_tools": ["detect_price_anomaly"]},
+    {"id": "invalid", "query": "有没有无效订单或刷单", "expect_tools": ["flag_invalid_orders"]},
+    {"id": "forecast", "query": "预测未来几天销售额", "expect_tools": ["forecast_sales"]},
+    {"id": "pipeline", "query": "对商品做一次质检校验", "expect_tools": ["run_product_pipeline"]},
+    {"id": "workflow_qc", "query": "跑一遍商品质检工作流一整套", "expect_tools": ["run_workflow"]},
+    {"id": "ops", "query": "做一次经营诊断", "expect_tools": ["run_workflow"]},
+    {"id": "ads", "query": "广告投放 ROI 怎么样", "expect_tools": ["query_ad_performance"], "expect_metric": "ad_roi", "expect_value": 0.8182},
+    {"id": "alerts", "query": "扫描一下店铺预警", "expect_tools": ["run_alert_scan"], "expect_metric": "alert_open_count", "expect_value": 3},
+    {"id": "ocr", "query": "对主图做OCR", "expect_tools": ["run_ocr_check"]},
+    {"id": "workflow_ad", "query": "跑一遍投放诊断工作流", "expect_tools": ["run_workflow"]}
+  ]
+}

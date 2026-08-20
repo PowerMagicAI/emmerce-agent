@@ -1,0 +1,22 @@
+# Local runtime / secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+data/
+*.db
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+*.egg-info/
+.venv/
+venv/
+web/node_modules/
+web/dist/
+.cursor/
+.idea/
+.vscode/

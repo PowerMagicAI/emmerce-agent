@@ -1,0 +1,3 @@
+@echo off
+echo Starting Emmerce API on :8000 ...
+python -m uvicorn emmerce_agent.interfaces.api.main:app --reload --host 127.0.0.1 --port 8000
